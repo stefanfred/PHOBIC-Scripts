@@ -6,12 +6,12 @@ rm -f $f
 
 
 
-for i in `seq 5 11`
+for i in `seq 1 40`
 do
-	l=$(echo "$i + 0.5" | bc)
-	(cd ../pthash/out && ./build -n 50000 -l $l -a 1 -e all -b opt1) &>> $f
-	(cd ../pthash/out && ./build -n 50000 -l $l -a 1 -e all -b skew) &>> $f
+	p=$(echo "$i * 300" | bc)
+	(cd ../pthash/out && ./build -n 8000000 -l 3 -a 1 -e all -b opt2 -p $p -t 8 --dense --sort) &>> $f
 done
+
 
 sed -i 's/": "/=/g' $f
 sed -i 's/"//g' $f
