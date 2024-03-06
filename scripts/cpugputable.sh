@@ -1,6 +1,6 @@
 h=$(hostname)
-mkdir -p ${h}"."
-f=$h$0".res"
+mkdir -p ${h}
+f=$h/$0".res"
 printf "writing to %s\n" $f
 rm -f $f
 
