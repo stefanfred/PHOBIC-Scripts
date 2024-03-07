@@ -1,0 +1,44 @@
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=4.924301 pilot_bits=4.917939 offsets_bits=0.006362 query_time=--- total_construct=12.068887  initial_hash=0.852125 allocation=0.745225 input_transfer=5.730552 setup_commands=0.025203 GPU_bucket_sizes=0.257854 GPU_bucket_sorting=0.187351 GPU_partition_offsets=0.000819 GPU_apply_partition_offsets=0.005980 GPU_key_redistribution=0.322150 GPU_search=0.893747 GPU_memory_map=0.106614 result_transfer=1.098571 encoding=0.284778 size=25000000 queries=100000000 A=2 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=1024 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=3.454541 pilot_bits=3.447690 offsets_bits=0.006851 query_time=--- total_construct=11.121895  initial_hash=0.850835 allocation=0.650407 input_transfer=5.748852 setup_commands=0.025052 GPU_bucket_sizes=0.240632 GPU_bucket_sorting=0.086508 GPU_partition_offsets=0.000819 GPU_apply_partition_offsets=0.004178 GPU_key_redistribution=0.317399 GPU_search=0.691077 GPU_memory_map=0.071076 result_transfer=0.777363 encoding=0.214743 size=25000000 queries=100000000 A=3 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=683 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=2.704804 pilot_bits=2.698442 offsets_bits=0.006362 query_time=--- total_construct=10.707742  initial_hash=0.849308 allocation=0.616599 input_transfer=5.738282 setup_commands=0.026194 GPU_bucket_sizes=0.211100 GPU_bucket_sorting=0.050381 GPU_partition_offsets=0.000819 GPU_apply_partition_offsets=0.002908 GPU_key_redistribution=0.313306 GPU_search=0.649664 GPU_memory_map=0.053336 result_transfer=0.587802 encoding=0.209201 size=25000000 queries=100000000 A=4 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=512 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=2.314965 pilot_bits=2.308114 offsets_bits=0.006851 query_time=--- total_construct=10.839688  initial_hash=0.856178 allocation=0.577548 input_transfer=5.731191 setup_commands=0.025098 GPU_bucket_sizes=0.203691 GPU_bucket_sorting=0.037151 GPU_partition_offsets=0.000833 GPU_apply_partition_offsets=0.002403 GPU_key_redistribution=0.312484 GPU_search=0.855122 GPU_memory_map=0.042669 result_transfer=0.608577 encoding=0.218845 size=25000000 queries=100000000 A=5 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=410 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=2.169510 pilot_bits=2.162660 offsets_bits=0.006851 query_time=--- total_construct=11.471745  initial_hash=0.851792 allocation=0.541201 input_transfer=5.724757 setup_commands=0.025841 GPU_bucket_sizes=0.185322 GPU_bucket_sorting=0.028426 GPU_partition_offsets=0.000819 GPU_apply_partition_offsets=0.002048 GPU_key_redistribution=0.309006 GPU_search=1.503802 GPU_memory_map=0.035793 result_transfer=0.728227 encoding=0.242022 size=25000000 queries=100000000 A=6 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=341 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=2.085041 pilot_bits=2.078190 offsets_bits=0.006851 query_time=--- total_construct=13.100435  initial_hash=0.848753 allocation=0.524060 input_transfer=5.725128 setup_commands=0.025050 GPU_bucket_sizes=0.170910 GPU_bucket_sorting=0.022856 GPU_partition_offsets=0.000778 GPU_apply_partition_offsets=0.001638 GPU_key_redistribution=0.306217 GPU_search=2.730885 GPU_memory_map=0.031231 result_transfer=0.735523 encoding=0.727942 size=25000000 queries=100000000 A=7 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=293 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=2.018173 pilot_bits=2.011323 offsets_bits=0.006851 query_time=--- total_construct=16.710825  initial_hash=0.851600 allocation=0.514254 input_transfer=5.727219 setup_commands=0.025716 GPU_bucket_sizes=0.146388 GPU_bucket_sorting=0.017518 GPU_partition_offsets=0.000754 GPU_apply_partition_offsets=0.001458 GPU_key_redistribution=0.302817 GPU_search=6.810665 GPU_memory_map=0.027401 result_transfer=0.659775 encoding=0.379315 size=25000000 queries=100000000 A=8 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=256 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=1.969748 pilot_bits=1.962898 offsets_bits=0.006851 query_time=--- total_construct=26.772730  initial_hash=0.852138 allocation=0.506773 input_transfer=5.751983 setup_commands=0.025662 GPU_bucket_sizes=0.142413 GPU_bucket_sorting=0.016006 GPU_partition_offsets=0.000742 GPU_apply_partition_offsets=0.001306 GPU_key_redistribution=0.301302 GPU_search=17.317151 GPU_memory_map=0.023711 result_transfer=0.299780 encoding=0.309348 size=25000000 queries=100000000 A=9 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=228 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=1.933489 pilot_bits=1.927127 offsets_bits=0.006362 query_time=--- total_construct=58.016174  initial_hash=0.852427 allocation=0.502962 input_transfer=5.758117 setup_commands=0.025021 GPU_bucket_sizes=0.129763 GPU_bucket_sorting=0.014664 GPU_partition_offsets=0.000737 GPU_apply_partition_offsets=0.001229 GPU_key_redistribution=0.300605 GPU_search=48.794625 GPU_memory_map=0.021304 result_transfer=0.298454 encoding=0.093476 size=25000000 queries=100000000 A=10 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=205 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=1.912538 pilot_bits=1.905687 offsets_bits=0.006851 query_time=--- total_construct=151.702663  initial_hash=1.070588 allocation=0.501474 input_transfer=5.745566 setup_commands=0.024973 GPU_bucket_sizes=0.118926 GPU_bucket_sorting=0.012673 GPU_partition_offsets=0.000737 GPU_apply_partition_offsets=0.001106 GPU_key_redistribution=0.297252 GPU_search=142.285699 GPU_memory_map=0.019231 result_transfer=0.300348 encoding=0.101507 size=25000000 queries=100000000 A=11 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=186 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
+Device: NVIDIA GeForce RTX 3090
+SubGroupSize: 32
+Queues: C = 1 T = 1
+RESULT total_bits=1.888630 pilot_bits=1.881779 offsets_bits=0.006851 query_time=--- total_construct=387.478725  initial_hash=0.851893 allocation=0.492801 input_transfer=5.729683 setup_commands=0.024796 GPU_bucket_sizes=0.108573 GPU_bucket_sorting=0.012001 GPU_partition_offsets=0.000737 GPU_apply_partition_offsets=0.001024 GPU_key_redistribution=0.294789 GPU_search=378.343228 GPU_memory_map=0.017736 result_transfer=0.297311 encoding=0.079154 size=25000000 queries=100000000 A=12 partition_size=2048 pilotencoder=OrthoEncoderDual<golombcompact0.500000> partitionencoder=DiffToExpected<compact> hashfunction=murmur2 validated=0 buckets_per_partition=171 devce_name=NVIDIA_GeForce_RTX_3090 subgroupsize=32 computeQueues=1 transferQueues=1
