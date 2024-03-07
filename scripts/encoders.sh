@@ -6,7 +6,7 @@ rm -f $f
 
 
 
-(cd ../pthash/out && ./build -n 10000000 -l 5 -a 1 -e all -b opt2 -p 4882 -t 8 --dense --sort) &>> $f
+(cd ../pthash/out && ./build -n 10000000 -l 5 -a 1 -e all -b opt2 -p 4882 -t 8 --dense --sort --lookup) &>> $f
 
 
 sed -i 's/": "/=/g' $f
