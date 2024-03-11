@@ -9,7 +9,7 @@ rm -f $f
 
 for i in `seq 2 12`
 do
-	(cd ../PTHash-GPU/out/ && ./BENCHMARK -n 25M -a $i -i murmur2)  >> $f 2>&1
+	(cd ../PTHash-GPU/out/ && ./BENCHMARK -n 25M -a $i)  >> $f 2>&1
 done
 
 sed -i 's/": "/=/g' $f
