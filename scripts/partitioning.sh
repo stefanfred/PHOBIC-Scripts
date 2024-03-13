@@ -7,10 +7,11 @@ rm -f $f
 
 
 
-for i in `seq 1 20`
+for i in `seq 11 24`
 do
-	p=$(echo "$i * 150" | bc)
-	(cd ../pthash/out && ./build -n 8000000 -l 4 -a 1 -e all -b opt2 -p $p -t 8 --dense --sort) >> $f 2>&1
+	p=$(echo "2 ^ $i" | bc)
+	printf "index %s\n" $p
+	(cd ../pthash/out && ./build -n 134217728 -l 4 -a 1 -e all -b opt1 -p $p -t 8 --dense --sort) >> $f 2>&1
 done
 
 
