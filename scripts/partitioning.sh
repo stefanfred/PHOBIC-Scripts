@@ -7,16 +7,15 @@ rm -f $f
 
 
 
-for i in `seq 11 24`
+for i in `seq 10 19`
 do
-	p=$(echo "2 ^ $i" | bc)
+	p=$(echo "2 ^ $i + 2 ^ ($i-1)" | bc)
 	printf "index %s\n" $p
-	(cd ../pthash/out && ./build -n 134217728 -l 4 -a 1 -e all -b opt1 -p $p -t 8 --dense --sort) >> $f 2>&1
+	(cd ../pthash/out && ./build -n 100000000 -l 6 -a 1 -e all -b opt -p $p -t 8 --dense --sort) >> $f 2>&1
+	
+	sed -i 's/": "/=/g' $f
+	sed -i 's/"//g' $f
+	sed -i 's/{/RESULT /g' $f
+	sed -i 's/}//g' $f
+	sed -i 's/,//g' $f
 done
-
-
-sed -i 's/": "/=/g' $f
-sed -i 's/"//g' $f
-sed -i 's/{/RESULT /g' $f
-sed -i 's/}//g' $f
-sed -i 's/,//g' $f
