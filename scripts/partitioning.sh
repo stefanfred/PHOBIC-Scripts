@@ -11,7 +11,7 @@ for i in `seq 10 19`
 do
 	p=$(echo "2 ^ $i + 2 ^ ($i-1)" | bc)
 	printf "index %s\n" $p
-	(cd ../pthash/out && ./build -n 100000000 -l 5 -a 1 -e all -b opt -p $p -t 1 --dense --sort) >> $f 2>&1
+	(cd ../pthash/out && ./build -n 100000000 -l 5 -a 1 -e all -b opt -p $p -t 8 --dense --sort) >> $f 2>&1
 	
 	sed -i 's/": "/=/g' $f
 	sed -i 's/"//g' $f
@@ -19,3 +19,18 @@ do
 	sed -i 's/}//g' $f
 	sed -i 's/,//g' $f
 done
+
+
+for i in `seq 20 24`
+do
+	p=$(echo "2 ^ $i + 2 ^ ($i-1)" | bc)
+	printf "index %s\n" $p
+	(cd ../pthash/out && ./build -n 100000000 -l 5 -a 1 -e mono-R -b opt -p $p -t 8 --dense --sort) >> $f 2>&1
+	
+	sed -i 's/": "/=/g' $f
+	sed -i 's/"//g' $f
+	sed -i 's/{/RESULT /g' $f
+	sed -i 's/}//g' $f
+	sed -i 's/,//g' $f
+done
+
