@@ -9,9 +9,9 @@ rm -f $f
 
 for i in `seq 5 11`
 do
-	l=$(echo "$i + 0.5" | bc)
-	(cd ../pthash/out && ./build -n 50000 -l $l -a 1 -e all -b opt1) >> $f 2>&1
-	(cd ../pthash/out && ./build -n 50000 -l $l -a 1 -e all -b skew) >> $f 2>&1
+	l=$(echo "$i" | bc)
+	(cd ../pthash/out && ./build -n 100000 -l $l -a 1 -e all -b opt -r add) >> $f 2>&1
+	(cd ../pthash/out && ./build -n 100000 -l $l -a 1 -e all -b skew -r add) >> $f 2>&1
 done
 
 sed -i 's/": "/=/g' $f

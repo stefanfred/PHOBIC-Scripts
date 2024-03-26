@@ -8,8 +8,8 @@ rm -f $f
 
 
 
-(cd ../pthash/out && ./build -n 100000000 -l 5 -a 1 -e all -b opt -p 3000 -t 8 --dense --sort) >> $f 2>&1
-(cd ../pthash/out && ./build -n 100000000 -l 5 -a 1 -e all -b opt -p 3000 -t 8 --dense) >> $f 2>&1
+(cd ../pthash/out && ./build -n 100000000 -l 7 -a 1 -e all -b opt -p 2048 -t 8 --dense --sort -r add) >> $f 2>&1
+(cd ../pthash/out && ./build -n 100000000 -l 7 -a 1 -e all -b opt -p 2048 -t 8 --dense -r add) >> $f 2>&1
 
 
 sed -i 's/": "/=/g' $f
