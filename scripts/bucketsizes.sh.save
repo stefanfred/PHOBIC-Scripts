@@ -7,7 +7,7 @@ rm -f $f
 
 
 
-for i in `seq 23 23`
+for i in `seq 21`
 do
 	l=$(echo "$i / 2.0" | bc -l)
 	printf "lambda %s\n" $l	
