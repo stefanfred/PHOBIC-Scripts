@@ -1,6 +1,6 @@
-[submodule "PTHash-GPU"]
-	path = PTHash-GPU
-	url = https://github.com/stefanfred/PTHash-GPU.git
 [submodule "pthash"]
 	path = pthash
 	url = https://github.com/jermp/pthash.git
+[submodule "PHOBIC-GPU"]
+	path = PHOBIC-GPU
+	url = https://github.com/stefanfred/PHOBIC-GPU.git
